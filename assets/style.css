@@ -1,3 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+
 .hero-section {
     position: relative;
     background-image: url('./images/Hero.jpg.webp');
@@ -35,4 +41,12 @@
 
 .learn-section .card {
     margin-top: 20px; 
+}
+
+.learn-section .card {
+    justify-content
+    width: 80%;
+    background-color: rgba(64, 64, 64, 0.8);
+     /* Dark grey with 80% opacity */
+    color:white;
 }
