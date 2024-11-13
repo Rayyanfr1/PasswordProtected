@@ -2,7 +2,7 @@
 
 ## Overview
 
-[View live project here]()
+[View live project here](https://rayyanfr1.github.io/PasswordProtected/)
 
 
 
@@ -57,30 +57,29 @@
 ## Features
 - Navbar
 
-![Navbar section](docs/assets/navbar.PNG)  
+![Navbar section](./documentation/assets/images/Navbar.png)  
 
 - Hero section
 
-![Hero section](docs/assets/Hero-section.PNG)
+![Hero section](./documentation/assets/images/hero.png)
 
 - Learn information cards
 
-![Learn section](docs/assets/Learn-section.PNG)
+![Learn section](./documentation/assets/images/learn.png)
 
 - Embedded videos
 
-![iframes](docs/assets/more-info-section.PNG)
+![iframes](./documentation/assets/images/moreinfo.png)
 
 Social media links in footer
 
-![Footer social links](docs/assets/socials.PNG)
+![Footer social links](./documentation/assets/images/footer#.png)
 
 
 ## Testing and validation
 
 ### Testing Results
-A range of devices were used when testing the functionality of the website. This included both real-world devices and the ones provided on developer tools.
-
+A range of devices were used when testing the functionality of the website.
 The devices included were :
 
 - iPhone 11 pro max (real-world)
@@ -92,21 +91,20 @@ The devices included were :
 
 ### Validation
 HTML validation
-![Screenshot of html validation](docs/assets/html-validation-cyberwise.PNG)
+![Screenshot of html validation](./documentation/assets/images/html-validate.png)
 
 </br>
 
 CSS validation
-![Screenshot of css validation](docs/assets/css-validation-cyberwise.PNG)
+![Screenshot of css validation](./documentation/assets/images/css-validate.png)
 
-Lighthouse score
-![Screenshot of lighthouse score](docs/assets/lighthouse-cyberwise.PNG)
+
 
 ## Deployment
 Here are the steps taken to deploy the website :
 
-- Go to github.com/m-dixon5.
-- Select the CyberWise-Project repositry.
+- Go to github.com/rayyanfr1.
+- Select the passwordprotected-Project repositry.
 - Open the settings tab located near the top of the screen.
 - Use the menu bar on the left to navigate to the pages section.
 - In the pages section check the source is set to deploy from a branch.
@@ -116,44 +114,26 @@ Here are the steps taken to deploy the website :
 
 ## Bugs
 
-- Issue with the whole html content being smaller than the page, meaning there is a gap between the content and right-hand side of the screen. This only applies to screen sizes smaller than desktop. It does not effect any functionality.
-
-- Footer and newsletter sign-up section are centered differenty to rest of the content when not viewing on full-screen desktop.
-
 ## Credits
 
 ### Content
-- https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262 (issue with iframes)
-
-- https://kb.blackbaud.com/knowledgebase/Article/95458 (iframe full screen issue)
-
-- https://www.cisa.gov/secure-our-world/use-strong-passwords (content)
-
-- https://www.bu.edu/tech/support/information-security/why-use-2fa/#:~:text=2FA%20is%20essential%20to%20web,a%20password%20alone%20is%20useless. (content)
-
-- https://www.ncsc.gov.uk/guidance/phishing (content)
-
-- https://www.lepide.com/blog/10-ways-to-prevent-phishing-attacks/ (content)
-
-- https://www.kaspersky.com/resource-center/preemptive-safety/how-to-set-up-a-secure-home-network (content)
-
-- https://www.nicybersecuritycentre.gov.uk/social-media-how-secure-your-accounts (content)
-
-- https://www.infosec.ox.ac.uk/protect-my-privacy-online (content)
-
 - https://github.com/amylour (README inspo)
 
 - Google AI (content)
+
+- Microsoft Copilot 
+
+-DalE Image Generator 
+
+-Imagen 3 Image Generator 
 
 ### Media
 
 - https://fontawesome.com/ (Icons)
 
-- https://pixabay.com/ (Images)
-
-- https://www.pexels.com/ (Images)
-
 - https://convertio.co/ (File convertion)
+
+- https://gemini.com/ (Image Generator)
 
 ### Testing
 - https://validator.w3.org/
@@ -164,6 +144,6 @@ Here are the steps taken to deploy the website :
 
 ## Future Improvements
 
-- Add additional helpline information that can be quickly accessed through a button placed in the hero section of the page.
+- Make the website more responsive to serve and cover many variants of device, due to shortage of time, it was'nt possible.
 
 - Implement the unfinished newsletter sign up so users have the oportunity to gain further knowledge on the topic
