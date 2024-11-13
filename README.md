@@ -1,66 +1,169 @@
 # PasswordProtected
 
-PasswordProtected is a web application dedicated to empowering individuals to navigate the digital world with confidence and security. It provides information on different avenues you can take to reduce the risk of being a victim of cybercrime.
+## Overview
 
-## Table of Contents
+[View live project here]()
 
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
-## Demo
 
-You can view a live demo of the project [here](#).
+### User Stories
+
+- As a user, I want to be able to view information on the topic that is clear and concise.
+
+- As a user, I want to be able to navigate the site quickly via a menu / menu bar.
+
+- As a user, I would like to be able to find relevant information easily.
+
+- As a user, I want access to tips and guidelines on how to protect sensitive information and signs to look out for.
+
+- As a user, I would like access to further resources on the topic.
+
+- As a user, I want access to social media accounts to follow for additional info.
+
+- As a user, I want the option to sign up for a newsletter regarding updates and news on the topic.
+
+## Design
+
+### Wireframes
+<details open>
+<summary>Wireframe - desktop 1</summary>
+
+![desktop 1](docs/assets/Desktop-wireframe-1.PNG)
+</details>
+
+<details>
+<summary>Wireframe - desktop 2</summary>
+
+![desktop 2](docs/assets/Desktop-wireframe-2.PNG)
+</details>
+
+<details>
+<summary>Wireframe - desktop 3</summary>
+
+![desktop 3](docs/assets/Desktop-wireframe-3.PNG)
+</details>
+
+
+
+### Colour Scheme
+- For the colour scheme I used a limited amount of colours with the majority of the website being a black background and white text. A dark was used alongside this to highlight certain elements and features such as buttons, menu items and content sections. 
+
+- The page was designed to be simple and to focus on the content hence the colours chosen.
+
+ <br />
+
+![Screenshot of colour palette](./documentation/assets/images/Color%20Hunt%20Palette%20181c143c3d37697565ecdfcc%20(1).png)
 
 ## Features
+- Navbar
 
-- Responsive design using Bootstrap
-- Informative sections on password protection
-- Easy navigation with a responsive navbar
+![Navbar section](docs/assets/navbar.PNG)  
 
-## Installation
+- Hero section
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/passwordprotected.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd passwordprotected
-    ```
+![Hero section](docs/assets/Hero-section.PNG)
 
-## Usage
+- Learn information cards
 
-1. Open `index.html` in your web browser to view the application.
+![Learn section](docs/assets/Learn-section.PNG)
 
-## Contributing
+- Embedded videos
 
-Contributions are welcome! Please follow these steps:
+![iframes](docs/assets/more-info-section.PNG)
 
-1. Fork the repository.
-2. Create a new branch:
-    ```sh
-    git checkout -b feature/your-feature-name
-    ```
-3. Make your changes.
-4. Commit your changes:
-    ```sh
-    git commit -m 'Add some feature'
-    ```
-5. Push to the branch:
-    ```sh
-    git push origin feature/your-feature-name
-    ```
-6. Open a pull request.
+Social media links in footer
 
-## License
+![Footer social links](docs/assets/socials.PNG)
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
+## Testing and validation
 
-If you have any questions or suggestions, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).
+### Testing Results
+A range of devices were used when testing the functionality of the website. This included both real-world devices and the ones provided on developer tools.
+
+The devices included were :
+
+- iPhone 11 pro max (real-world)
+- Google Pixel 7 (real-world)
+- iPad pro 2021 (real-world)
+- Alienware AW2521HF 24.5" monitor (real-world)
+- iPhone 12 (dev-tools)
+- Asus Zenbook Fold (dev-tools)
+
+### Validation
+HTML validation
+![Screenshot of html validation](docs/assets/html-validation-cyberwise.PNG)
+
+</br>
+
+CSS validation
+![Screenshot of css validation](docs/assets/css-validation-cyberwise.PNG)
+
+Lighthouse score
+![Screenshot of lighthouse score](docs/assets/lighthouse-cyberwise.PNG)
+
+## Deployment
+Here are the steps taken to deploy the website :
+
+- Go to github.com/m-dixon5.
+- Select the CyberWise-Project repositry.
+- Open the settings tab located near the top of the screen.
+- Use the menu bar on the left to navigate to the pages section.
+- In the pages section check the source is set to deploy from a branch.
+- Below this in the branch section set the branch to Main and the folder to /root.
+- Once you have completed this click save.
+- After a minute or so the live project link should appear above.
+
+## Bugs
+
+- Issue with the whole html content being smaller than the page, meaning there is a gap between the content and right-hand side of the screen. This only applies to screen sizes smaller than desktop. It does not effect any functionality.
+
+- Footer and newsletter sign-up section are centered differenty to rest of the content when not viewing on full-screen desktop.
+
+## Credits
+
+### Content
+- https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262 (issue with iframes)
+
+- https://kb.blackbaud.com/knowledgebase/Article/95458 (iframe full screen issue)
+
+- https://www.cisa.gov/secure-our-world/use-strong-passwords (content)
+
+- https://www.bu.edu/tech/support/information-security/why-use-2fa/#:~:text=2FA%20is%20essential%20to%20web,a%20password%20alone%20is%20useless. (content)
+
+- https://www.ncsc.gov.uk/guidance/phishing (content)
+
+- https://www.lepide.com/blog/10-ways-to-prevent-phishing-attacks/ (content)
+
+- https://www.kaspersky.com/resource-center/preemptive-safety/how-to-set-up-a-secure-home-network (content)
+
+- https://www.nicybersecuritycentre.gov.uk/social-media-how-secure-your-accounts (content)
+
+- https://www.infosec.ox.ac.uk/protect-my-privacy-online (content)
+
+- https://github.com/amylour (README inspo)
+
+- Google AI (content)
+
+### Media
+
+- https://fontawesome.com/ (Icons)
+
+- https://pixabay.com/ (Images)
+
+- https://www.pexels.com/ (Images)
+
+- https://convertio.co/ (File convertion)
+
+### Testing
+- https://validator.w3.org/
+
+- https://jigsaw.w3.org/css-validator/
+
+
+
+## Future Improvements
+
+- Add additional helpline information that can be quickly accessed through a button placed in the hero section of the page.
+
+- Implement the unfinished newsletter sign up so users have the oportunity to gain further knowledge on the topic
