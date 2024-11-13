@@ -14,11 +14,13 @@ body {
 
 
 .hero-section .card {
-    width: 18rem;
-    background-color: rgba(64, 64, 64, 0.8); /* Dark grey with 80% opacity */
+    width: 80%;
+    background-color: rgba(64, 64, 64, 0.8) ; /* Dark grey with 80% opacity */
+    ;
 }
 .hero-section .card-body {
     color: white;
+
 }
 .about-section {
     background-color: black;
