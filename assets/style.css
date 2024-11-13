@@ -6,8 +6,29 @@
     background-color: black;
 }
 
-.card {
+
+.hero-section .card {
     width: 18rem;
-    background-color: rgba(100, 102, 124, 0.8); /* Dark grey with 80% opacity */
+    background-color: rgba(64, 64, 64, 0.8); /* Dark grey with 80% opacity */
+}
+.hero-section .card-body {
+    color: white;
+}
+.about-section {
+    background-color: black;
+    padding: 50px 0;
+    color: white;
+}
+
+.about-section .card {
+    width: 80%;
+}
+
+.about-section .card-body {
+    color: white;
+}
+
+.about-section > .card {
+    background-color: rgba(64, 64, 64, 0.8); /* Dark grey with 80% opacity */
     color: white;
 }
