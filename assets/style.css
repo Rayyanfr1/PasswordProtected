@@ -1,6 +1,6 @@
 .hero-section {
     position: relative;
-    background-image: url('https://example.com/path/to/your/image.jpg');
+    background-image: url('./images/Hero.jpg.webp');
     background-size: cover;
     height: 100vh;
     background-color: black;
@@ -8,4 +8,6 @@
 
 .card {
     width: 18rem;
+    background-color: rgba(100, 102, 124, 0.8); /* Dark grey with 80% opacity */
+    color: white;
 }
